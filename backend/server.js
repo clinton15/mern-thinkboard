@@ -9,20 +9,6 @@ import rateLimiter from "./middleware/rateLimiter.js";
 
 const app = express();
 
-//notes:
-
-/*
-dotenv pkg
-process.exit
-schema
-model based out of that schema
-middleware express.json()
-rate limit
-theme in daisy ui
-*/
-//an endpoint is a combination of the URL and HTTP method that lets the client interact
-//with a specific resource
-
 const PORT = process.env.PORT || 5001;
 const __dirname = path.resolve();
 
